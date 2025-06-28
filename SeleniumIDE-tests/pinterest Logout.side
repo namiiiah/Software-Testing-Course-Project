@@ -1,0 +1,521 @@
+{
+  "id": "0c50107a-4d48-4d5d-a1c1-9583e628ef78",
+  "version": "2.0",
+  "name": "pinterest dangxuat",
+  "url": "https://www.pinterest.com/",
+  "tests": [{
+    "id": "dce2ccb2-35f9-4911-bd1b-5761d2b597a8",
+    "name": "Đăng xuất thành công từ trang chủ",
+    "commands": [{
+      "id": "f590f4a7-c9b2-4959-9081-e8d1a068f27e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c51dc42-1b4c-4617-9aa0-b585891dea7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1286x788",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb30787b-4034-4a3f-9561-86726c637834",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Kzl > .Jea > .xuA > .oy8 .oy8",
+      "targets": [
+        ["css=.Kzl > .Jea > .xuA > .oy8 .oy8", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div[2]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "268cbac0-b967-4f61-b6ba-be3cd1052620",
+      "comment": "",
+      "command": "click",
+      "target": "css=#VerticalNav-MoreOptions-Flyout-item-12 .X8m",
+      "targets": [
+        ["css=#VerticalNav-MoreOptions-Flyout-item-12 .X8m", "css:finder"],
+        ["xpath=//div[@id='VerticalNav-MoreOptions-Flyout-item-12']/div/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Đăng xuất')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4d7634be-428a-4951-b81e-a3d5e03f79b8",
+    "name": "Kiểm tra các liên kết trên trang đăng nhập/trang chủ sau đăng xuất",
+    "commands": [{
+      "id": "834444f8-9e52-46eb-802b-ba26173bc77f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bd16d13-832c-4110-b982-e67832f3dc3e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1286x788",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4470c07-594d-4146-a5cf-4a076dc77fb8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.H-G > .RCK",
+      "targets": [
+        ["css=.H-G > .RCK", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0059041a-50bc-4c50-9903-f2e50161555b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.H-G > .RCK",
+      "targets": [
+        ["css=.H-G > .RCK", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12bf4a75-b63a-41b6-ad7b-4ed743818da0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Il7",
+      "targets": [
+        ["css=.Il7", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0b9d4d2-09c5-453b-84d2-6a5687bf4e20",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Giới thiệu",
+      "targets": [
+        ["linkText=Giới thiệu", "linkText"],
+        ["css=.J8R:nth-child(1) .nrl", "css:finder"],
+        ["xpath=//a[contains(text(),'Giới thiệu')]", "xpath:link"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/_/_/about/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Giới thiệu')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2465",
+      "windowTimeout": 2000
+    }, {
+      "id": "b70dc3ff-34f4-4483-98aa-479815d6a11c",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4d4a498-7417-4c5e-9964-0f77ac41fe98",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2465}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "443773ae-d8a9-4ead-b952-cc2acab33bda",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f531f88f-52c8-4b07-bf42-095084d4293e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Doanh nghiệp",
+      "targets": [
+        ["linkText=Doanh nghiệp", "linkText"],
+        ["css=.J8R:nth-child(2) .nrl", "css:finder"],
+        ["xpath=//a[contains(text(),'Doanh nghiệp')]", "xpath:link"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/_/_/business/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Doanh nghiệp')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win509",
+      "windowTimeout": 2000
+    }, {
+      "id": "a67d8581-9e77-4f41-a055-016e3670ba54",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win509}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d9e2085-153d-45b7-b506-946500758be6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e9ca273-aef5-4e3f-bff3-8bc4ff0cc22f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.J8R:nth-child(3) .nrl", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/_/_/blog/?utm_source=organicpins_pinsite_homepageicon&utm_campaign=pinterest_homepage_blogicon_all_evergreen&utm_medium=organic-pinterest')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8304",
+      "windowTimeout": 2000
+    }, {
+      "id": "e4e91c81-8cce-43b2-87be-9be12476e7c9",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8304}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d42d945e-8eb3-4690-a3f8-2aceb0eac9c5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a6ca230e-e25d-481d-86b1-420897854c23",
+    "name": "Kiểm tra sau khi đăng xuất, có thể truy cập lại các trang công khai (không yêu cầu đăng nhập)",
+    "commands": [{
+      "id": "bbca671d-84ce-4593-8ecc-3319f6376941",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35b96cb6-090b-4e83-bf68-d5fae5d2f71a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1286x788",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9083f035-2451-4203-a636-9a6de9604054",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Jea:nth-child(4) > .xEW:nth-child(4)",
+      "targets": [
+        ["css=.Jea:nth-child(4) > .xEW:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='fullpage-wrapper']/div/div/div/div[2]/div/div/div[4]/div[4]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bd03608-5b27-46bc-a6b7-23c06d606753",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HtR .unauth-homepage-use-case-food",
+      "targets": [
+        ["css=.HtR .unauth-homepage-use-case-food", "css:finder"],
+        ["xpath=//div[@id='fullpage-wrapper']/div/div/div/div/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'ý tưởng bữa tối cuối tuần')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "107f1e0c-31e5-45ea-af38-310559bc2069",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.HtR .unauth-homepage-use-case-food",
+      "targets": [
+        ["css=.HtR .unauth-homepage-use-case-food", "css:finder"],
+        ["xpath=//div[@id='fullpage-wrapper']/div/div/div/div/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'ý tưởng bữa tối cuối tuần')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7592f0a2-e204-420a-a5d7-89f141818ffc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HtR .unauth-homepage-use-case-food",
+      "targets": [
+        ["css=.HtR .unauth-homepage-use-case-food", "css:finder"],
+        ["xpath=//div[@id='fullpage-wrapper']/div/div/div/div/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'ý tưởng bữa tối cuối tuần')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15c58011-824b-48eb-b7a8-9657639b1466",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HtR .unauth-homepage-use-case-food",
+      "targets": [
+        ["css=.HtR .unauth-homepage-use-case-food", "css:finder"],
+        ["xpath=//div[@id='fullpage-wrapper']/div/div/div/div/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'ý tưởng bữa tối cuối tuần')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38cbcff4-2c44-426f-9679-aeeb9ea1e177",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.AR6 > path",
+      "targets": [
+        ["css=.AR6 > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d18140e-88dd-4455-848c-efce22e06890",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.AR6",
+      "targets": [
+        ["css=.AR6", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dd2c620-2001-4c7c-a8ee-c2efff2619bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AR6",
+      "targets": [
+        ["css=.AR6", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcc88fc7-bf72-499a-81ae-45b7052484b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hs0 .Jea:nth-child(3) .B1n",
+      "targets": [
+        ["css=.hs0 .Jea:nth-child(3) .B1n", "css:finder"],
+        ["xpath=//div[@id='fullpage-wrapper']/div[2]/div/div/div[2]/div/div/div[3]/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bce609d0-cf5d-47ad-a099-12d5ae17bfe3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc3f9b23-79f4-48cd-a047-639c14faf979",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.J8R:nth-child(4) .hCL",
+      "targets": [
+        ["css=.J8R:nth-child(4) .hCL", "css:finder"],
+        ["xpath=//img[@alt='Vịt Quay, Vịt Quay Bắc Kinh, Gà Quay, Cơm Gà, Hoàng Sơn, Cơm Chiên, Nhiếp Ảnh Thức Ăn, Món Ăn Ngon, Đường Phố']", "xpath:img"],
+        ["xpath=//div[@id='mweb-unauth-container']/div/div/div/div/section/div/div/article[4]/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//article[4]/div/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6f9a903-75dd-4ffe-86d9-3533bdab7a66",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.J8R:nth-child(4) .hCL",
+      "targets": [
+        ["css=.J8R:nth-child(4) .hCL", "css:finder"],
+        ["xpath=//img[@alt='Vịt Quay, Vịt Quay Bắc Kinh, Gà Quay, Cơm Gà, Hoàng Sơn, Cơm Chiên, Nhiếp Ảnh Thức Ăn, Món Ăn Ngon, Đường Phố']", "xpath:img"],
+        ["xpath=//div[@id='mweb-unauth-container']/div/div/div/div/section/div/div/article[4]/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//article[4]/div/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cce9c35-c96c-4b46-b7f7-721eab3d61f9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.J8R:nth-child(3) .hCL",
+      "targets": [
+        ["css=.J8R:nth-child(3) .hCL", "css:finder"],
+        ["xpath=//img[@alt='Bánh Mì Thịt, Mì Gà, Chim Cút, Bánh Mỳ, Ăn Sáng, Bánh Mì, Thịt, Món Ăn, Cà Phê']", "xpath:img"],
+        ["xpath=//div[@id='mweb-unauth-container']/div/div/div/div/section/div/div/article[3]/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//article[3]/div/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5143fab0-6141-4718-bec2-ed6b2ce83733",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.J8R:nth-child(3) .hCL",
+      "targets": [
+        ["css=.J8R:nth-child(3) .hCL", "css:finder"],
+        ["xpath=//img[@alt='Bánh Mì Thịt, Mì Gà, Chim Cút, Bánh Mỳ, Ăn Sáng, Bánh Mì, Thịt, Món Ăn, Cà Phê']", "xpath:img"],
+        ["xpath=//div[@id='mweb-unauth-container']/div/div/div/div/section/div/div/article[3]/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//article[3]/div/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e5ca5c5-03bd-4dea-8527-de9dbe05f02a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.J8R:nth-child(2) .hCL",
+      "targets": [
+        ["css=.J8R:nth-child(2) .hCL", "css:finder"],
+        ["xpath=//img[@alt='Vi Ê - Sài Gòn Food (Drink) | Behance Bò Viên Chiên, Đồ Ăn Vặt Việt Nam, Ảnh Đồ Ăn, Xoài Lắc, Tạo Phong Cách Ẩm Thực, Bánh Tráng Trộn, Ẩm Thực Việt Nam, Thức Ăn Đường Phố, Bánh Tráng']", "xpath:img"],
+        ["xpath=//div[@id='mweb-unauth-container']/div/div/div/div/section/div/div/article[2]/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//article[2]/div/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "693b5058-e45b-4a10-aefb-2e3b7c07eac2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.J8R:nth-child(2) .hCL",
+      "targets": [
+        ["css=.J8R:nth-child(2) .hCL", "css:finder"],
+        ["xpath=//img[@alt='Vi Ê - Sài Gòn Food (Drink) | Behance Bò Viên Chiên, Đồ Ăn Vặt Việt Nam, Ảnh Đồ Ăn, Xoài Lắc, Tạo Phong Cách Ẩm Thực, Bánh Tráng Trộn, Ẩm Thực Việt Nam, Thức Ăn Đường Phố, Bánh Tráng']", "xpath:img"],
+        ["xpath=//div[@id='mweb-unauth-container']/div/div/div/div/section/div/div/article[2]/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//article[2]/div/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65662164-8fb8-4c1a-af9b-47f196e47846",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.J8R:nth-child(1) .hCL",
+      "targets": [
+        ["css=.J8R:nth-child(1) .hCL", "css:finder"],
+        ["xpath=//img[@alt='Quán Ăn Đẹp, Bàn Đồ Ăn, Ăn Nhà Hàng, Đồ Ăn Ngon, Ảnh Đồ Ăn, Phô Mai Viên, Món Ăn Ý, Công Thức Món Hàn, Cơm Nhà']", "xpath:img"],
+        ["xpath=//div[@id='mweb-unauth-container']/div/div/div/div/section/div/div/article/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6a3d32-65df-415b-a3e9-484f9ad219c2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.J8R:nth-child(1) .hCL",
+      "targets": [
+        ["css=.J8R:nth-child(1) .hCL", "css:finder"],
+        ["xpath=//img[@alt='Quán Ăn Đẹp, Bàn Đồ Ăn, Ăn Nhà Hàng, Đồ Ăn Ngon, Ảnh Đồ Ăn, Phô Mai Viên, Món Ăn Ý, Công Thức Món Hàn, Cơm Nhà']", "xpath:img"],
+        ["xpath=//div[@id='mweb-unauth-container']/div/div/div/div/section/div/div/article/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11c7fa65-e6ac-4aad-ac34-093be13f4a7e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MIw > .Jea",
+      "targets": [
+        ["css=.MIw > .Jea", "css:finder"],
+        ["xpath=//div[@id='mweb-unauth-container']/div/div/div/div/section/div/div/article/div/a/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48ef840d-dac2-4cba-87bc-8c322f8b7ca6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MIw > .Jea",
+      "targets": [
+        ["css=.MIw > .Jea", "css:finder"],
+        ["xpath=//div[@id='mweb-unauth-container']/div/div/div/div/section/div/div/article/div/a/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "636bd07d-b92c-40d2-8070-dddf318f5b0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.S9z > .zI7 > .Jea",
+      "targets": [
+        ["css=.S9z > .zI7 > .Jea", "css:finder"],
+        ["xpath=//div[@id='mweb-unauth-container']/div/div/div/div/div[3]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7abdacaa-a988-4ada-8559-7bcb0f3790e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jEe > .Uvi",
+      "targets": [
+        ["css=.jEe > .Uvi", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4136de0a-6791-4f04-a457-c3549961c73d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jEe > .Uvi",
+      "targets": [
+        ["css=.jEe > .Uvi", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b22e6fd-b7cb-4bab-a882-364921966f7f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.KS5 > .FNs .SPw",
+      "targets": [
+        ["css=.KS5 > .FNs .SPw", "css:finder"],
+        ["xpath=//div[@id='mweb-unauth-container']/div/div/div/div/div[3]/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f10775bd-18c8-4113-9d9a-5c27e3d3194c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.jEe",
+      "targets": [
+        ["css=.jEe", "css:finder"],
+        ["xpath=//div[@id='mweb-unauth-container']/div/div/div/div/div[3]/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b081def-1dcf-48e3-a6ba-272128256ec0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,10)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59e6770f-fec0-47ac-96d4-251c2fbdd323",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1088)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "273da8a2-16c4-472e-9d1e-9af7a424a77f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dce2ccb2-35f9-4911-bd1b-5761d2b597a8"]
+  }],
+  "urls": [],
+  "plugins": []
+}

@@ -1,0 +1,611 @@
+{
+  "id": "1ac346cb-e0cd-42ab-8750-68608dea31dc",
+  "version": "2.0",
+  "name": "testcase timkiem",
+  "url": "https://www.pinterest.com/",
+  "tests": [{
+    "id": "13a800de-4a41-471b-9e1b-7a561eb40aba",
+    "name": "Tìm kiếm thành công với từ khóa hợp lệ",
+    "commands": [{
+      "id": "bc3cf1dc-4624-4918-8e29-2af989f15076",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d43338c8-d59b-4344-9648-fcc5621cf27c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bacefd8f-bdf0-45e5-8a2b-2960f102e15c",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "614111f1-e148-41cc-b3c4-beb852c12232",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.TMJ > .X8m",
+      "targets": [
+        ["css=.TMJ > .X8m", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-0-2']/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa612ef7-d047-4657-9c59-6d496b946940",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TMJ > .X8m",
+      "targets": [
+        ["css=.TMJ > .X8m", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-0-2']/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1ddf0446-f05c-411a-8f4f-9f646d3a4ab9",
+    "name": "Tìm kiếm với từ khóa không có kết quả",
+    "commands": [{
+      "id": "9af7c8c7-d562-46db-b10f-9a79b8270eff",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96783841-d299-4481-a8ed-8b3ca5913367",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33ae150b-05f9-408f-b52a-32fb29b5a9a8",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1187e1a9-6723-4150-acc5-f8e29819570d",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "||||||||||||||"
+    }, {
+      "id": "fc5fb4e3-3070-4311-842a-e8ccaaa253a1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "efda4baa-0e09-498d-a540-f0614fe5ec1d",
+    "name": "Tìm kiếm với từ khóa là một ký tự",
+    "commands": [{
+      "id": "d390fa36-8f30-4201-8ae1-cebefbf374b9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68ea5046-fee5-4e90-b63d-b9f20848bea3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "977bbd97-bfbb-46f5-9e1f-7195a450457a",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62981ed3-46c7-454c-8c9f-6eaa51e58df4",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a"
+    }, {
+      "id": "38e646a4-09f3-43f3-8813-830d1ab60d8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#SuggestionGroup-Option-0-0 .Jea",
+      "targets": [
+        ["css=#SuggestionGroup-Option-0-0 .Jea", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-0-0']/a/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef2eae3d-cdd2-45b4-8707-db108724d7f0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.xuA:nth-child(2) .nOy:nth-child(1) .KS5:nth-child(1)",
+      "targets": [
+        ["css=.xuA:nth-child(2) .nOy:nth-child(1) .KS5:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div[2]/div/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div/div/button/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/button/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4f7a274-e39d-480b-9843-1d80ab4ad50d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.xuA:nth-child(2) .nOy:nth-child(1) .KS5:nth-child(1)",
+      "targets": [
+        ["css=.xuA:nth-child(2) .nOy:nth-child(1) .KS5:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div[2]/div/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div/div/button/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/button/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1fe0ee1-e5eb-412a-8597-fcf087e64285",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.xuA:nth-child(2) .nOy",
+      "targets": [
+        ["css=.xuA:nth-child(2) .nOy", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div[2]/div/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6daee85e-fe69-4f3f-b165-6f84cccf1748",
+    "name": "Tìm kiếm với từ khóa là một số",
+    "commands": [{
+      "id": "da53b297-d1a6-4180-a27e-1e632193e62a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33d62467-6b67-4a65-bc5f-a194b776aa58",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f0a1347-cf6c-42e0-847f-20873031b33a",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a81390b-5d64-4637-bcca-fe4ac3807267",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#SuggestionGroup-Option-0-0 .Jea",
+      "targets": [
+        ["css=#SuggestionGroup-Option-0-0 .Jea", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-0-0']/a/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9603e8e-4363-4e2e-8e7b-a9729eb5ef42",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#SuggestionGroup-Option-0-0 .Jea",
+      "targets": [
+        ["css=#SuggestionGroup-Option-0-0 .Jea", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-0-0']/a/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14383219-53b9-468d-9200-42af6bd237bb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#SuggestionGroup-Option-0-1 .Jea",
+      "targets": [
+        ["css=#SuggestionGroup-Option-0-1 .Jea", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-0-1']/a/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24f87027-59cf-402d-936e-5095089a1a81",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#SuggestionGroup-Option-0-1 .Jea",
+      "targets": [
+        ["css=#SuggestionGroup-Option-0-1 .Jea", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-0-1']/a/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccc839c6-a828-4f95-a91e-afb56bc1f242",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "5cb824df-35af-4e21-8558-49cf454ec4a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#SuggestionGroup-Option-0-0 .Jea",
+      "targets": [
+        ["css=#SuggestionGroup-Option-0-0 .Jea", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-0-0']/a/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "05aa01b1-6db1-4098-ae87-4b94ee3d1e88",
+    "name": "Tìm kiếm với từ khóa là một biểu tượng đặc biệt",
+    "commands": [{
+      "id": "fd72d516-7b94-4155-8769-c34336f4c008",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70fbfd20-0f98-4602-8540-07bf9d39b7f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed762e97-bdcc-4906-8689-55d3a9f8be8d",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ebf5fb4-47c9-466d-8bed-910127c9d323",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "?"
+    }, {
+      "id": "b387a3cd-c909-412d-b519-e691dcb75250",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "74261d38-0c18-4d09-a28d-66992235b141",
+    "name": "Tìm kiếm với từ khóa chứa nhiều khoảng trắng",
+    "commands": [{
+      "id": "a040e65f-40ef-4255-8262-98855a230634",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "401b46ba-2836-41b5-ab4d-78d2b9694cda",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49d537e8-4b1e-4079-b3ce-71c216cb216c",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa2c395d-53a6-477f-b9a8-b4c213e614b8",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bao cát"
+    }, {
+      "id": "2b440170-2f8d-4789-be20-29c765a1f3a5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "0079d922-42b6-46e9-8f2e-48ced88be2cb",
+    "name": "Tìm kiếm với từ khóa dài (vượt quá giới hạn ký tự cho phép)",
+    "commands": [{
+      "id": "9f3cede0-9722-45b1-b518-05b2de45ac5b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07465a42-3a51-4d10-abb1-4d08b3154f84",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "253f1e62-09dd-4a42-afce-b85b5426cbe2",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5f6c2c1-8123-46dd-a756-3a394f6a3ff2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.qF5",
+      "targets": [
+        ["css=.qF5", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-0-0']/a/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a833be94-2f79-47ae-9b64-81f95a37bfb7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#SuggestionGroup-Option-0-1 .C7G",
+      "targets": [
+        ["css=#SuggestionGroup-Option-0-1 .C7G", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-0-1']/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b466a797-8771-48bf-be9f-af8d5dc9a2fe",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    }, {
+      "id": "51262054-e7ec-4507-b7d1-776a80ccf59f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Jea > .X8m",
+      "targets": [
+        ["css=.Jea > .X8m", "css:finder"],
+        ["xpath=//div[@id='syop_cta']/div/div/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ac45ae3-81da-4c11-9b04-2396e2959c16",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "19706b9c-29a3-4535-8009-4f95c52288ea",
+    "name": "Kiểm tra chức năng \"Gợi ý tìm kiếm\" (Search Suggestions/Autocomplete)",
+    "commands": [{
+      "id": "ffcef975-1f7e-4c54-835d-480c9cc02fa4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fdf695c-3bf9-48b1-82c4-7c748de46db5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64cbb470-92dd-497b-b710-5c9821355a82",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aac02592-3c1a-48d2-b327-762a45451529",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74448b2c-9b14-45a2-8f3f-00f7c96e8621",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#SuggestionGroup-Option-1-1 .Jea",
+      "targets": [
+        ["css=#SuggestionGroup-Option-1-1 .Jea", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-1-1']/div/div/div/div/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d111149c-66f1-43d0-b372-bb0802258a6e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#SuggestionGroup-Option-1-1 .Jea",
+      "targets": [
+        ["css=#SuggestionGroup-Option-1-1 .Jea", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-1-1']/div/div/div/div/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a89dedc-fb16-4376-a5bd-cb893b52ce67",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#SuggestionGroup-Option-1-6 .Jea",
+      "targets": [
+        ["css=#SuggestionGroup-Option-1-6 .Jea", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-1-6']/div/div/div/div/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/div/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ee1be38-5726-45ff-98b5-133c652f54fc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#SuggestionGroup-Option-1-6 .Jea",
+      "targets": [
+        ["css=#SuggestionGroup-Option-1-6 .Jea", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-1-6']/div/div/div/div/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/div/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a5c927a-fc74-456e-8871-c5ad3bdf3569",
+      "comment": "",
+      "command": "click",
+      "target": "css=#SuggestionGroup-Option-1-1 .Jea",
+      "targets": [
+        ["css=#SuggestionGroup-Option-1-1 .Jea", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-1-1']/div/div/div/div/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fc02ff5d-5b43-4a04-9a9e-984947966ac9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["13a800de-4a41-471b-9e1b-7a561eb40aba"]
+  }],
+  "urls": ["https://www.pinterest.com/"],
+  "plugins": []
+}

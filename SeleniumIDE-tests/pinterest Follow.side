@@ -1,0 +1,496 @@
+{
+  "id": "9b9b53db-949d-46cc-a1f4-17eb61f9c774",
+  "version": "2.0",
+  "name": "pinterest theodoitaikhoankhac",
+  "url": "https://www.pinterest.com/",
+  "tests": [{
+    "id": "8dc02d2c-2979-45c9-bd78-222a93506c6d",
+    "name": "Theo dõi thành công một tài khoản ",
+    "commands": [{
+      "id": "514150ed-64e5-4f81-b50f-615d8b821d6c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "549b5b3d-b6f0-420d-961b-6b1b7e98f200",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1286x787",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d488bb11-5426-4798-a1c5-77f4fa00bd5f",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5af5d6ab-8686-4665-870b-2911ca9514aa",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "anh"
+    }, {
+      "id": "b74531f1-926b-49b6-959b-cf72390e348a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.C7G .jzS",
+      "targets": [
+        ["css=.C7G .jzS", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-0-9']/a/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e35635d-1563-41d7-8acc-6804e6f051c5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.RCK > .X8m",
+      "targets": [
+        ["css=.RCK > .X8m", "css:finder"],
+        ["xpath=//div[@id='business-profile-header']/div/div/div[5]/div/div[2]/div/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd452c18-b244-417f-8dbd-5b64b2a76d71",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.RCK > .X8m",
+      "targets": [
+        ["css=.RCK > .X8m", "css:finder"],
+        ["xpath=//div[@id='business-profile-header']/div/div/div[5]/div/div[2]/div/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b71e62df-17a2-4582-bae3-04bb3f46d20a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xuA > .B1n",
+      "targets": [
+        ["css=.xuA > .B1n", "css:finder"],
+        ["xpath=//div[@id='business-profile-header']/div/div/div[5]/div/div/div/div/button/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfa27e3c-5a25-4325-b073-51e18d760b9b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.DUt > .INd",
+      "targets": [
+        ["css=.DUt > .INd", "css:finder"],
+        ["xpath=//div[@id='HeaderContent']/div/div/div[2]/div/div/div/div[2]/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f527ec8-cf81-4aac-9fc1-4e2e2c76b70b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.DUt > .INd",
+      "targets": [
+        ["css=.DUt > .INd", "css:finder"],
+        ["xpath=//div[@id='HeaderContent']/div/div/div[2]/div/div/div/div[2]/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "243b5074-1b9f-4b63-ab6c-3c4777f4a886",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.xuA:nth-child(2) > .oy8 .nrl > .DUt",
+      "targets": [
+        ["css=.xuA:nth-child(2) > .oy8 .nrl > .DUt", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div/div[2]/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/div[2]/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e38d019-63e4-4e67-8542-4326646c2555",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.xuA:nth-child(2) > .oy8 .nrl > .DUt",
+      "targets": [
+        ["css=.xuA:nth-child(2) > .oy8 .nrl > .DUt", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div/div[2]/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/div[2]/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0365baed-303b-4f28-a17d-490ad949dbd4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.xuA:nth-child(2) .nrl .oy8",
+      "targets": [
+        ["css=.xuA:nth-child(2) .nrl .oy8", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div/div[2]/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/div[2]/div/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb928546-0b8d-40e1-8430-c69045a80f5d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.xuA:nth-child(2) .nrl .oy8",
+      "targets": [
+        ["css=.xuA:nth-child(2) .nrl .oy8", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div/div[2]/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/div[2]/div/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36e2d191-f2c8-49be-ad59-b2e6b24c9d52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xuA:nth-child(2) > .oy8 .nrl > .DUt",
+      "targets": [
+        ["css=.xuA:nth-child(2) > .oy8 .nrl > .DUt", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div/div[2]/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/div[2]/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "21fc3662-fb33-4085-87a1-55128209365a",
+    "name": "Hủy theo dõi thành công một tài khoản đang theo dõi",
+    "commands": [{
+      "id": "2ecf9e17-61f9-4bae-9c90-9bb692c4149a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97b052d3-8c86-46cf-b73a-c504774cfd54",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1286x787",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e5dc36e-6ea8-4237-8166-e5079b250603",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f3f0050-2ef4-441a-89f5-037fc00ac51d",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "anh"
+    }, {
+      "id": "f13dbdca-827c-4868-a2fd-c071596ece9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.C7G .jzS",
+      "targets": [
+        ["css=.C7G .jzS", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-0-9']/a/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f70a0d3c-e662-4a83-a482-df3aa73f4021",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.RCK > .X8m",
+      "targets": [
+        ["css=.RCK > .X8m", "css:finder"],
+        ["xpath=//div[@id='business-profile-header']/div/div/div[5]/div/div[2]/div/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4176b44-6f2e-448a-baf7-c2a524ca5932",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.RCK > .X8m",
+      "targets": [
+        ["css=.RCK > .X8m", "css:finder"],
+        ["xpath=//div[@id='business-profile-header']/div/div/div[5]/div/div[2]/div/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5627491-aec5-49b7-8c11-fa0249c7b146",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xuA > .B1n",
+      "targets": [
+        ["css=.xuA > .B1n", "css:finder"],
+        ["xpath=//div[@id='business-profile-header']/div/div/div[5]/div/div/div/div/button/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "775326fc-7c0e-4e6b-85d9-a692934db7cf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.DUt > .INd",
+      "targets": [
+        ["css=.DUt > .INd", "css:finder"],
+        ["xpath=//div[@id='HeaderContent']/div/div/div[2]/div/div/div/div[2]/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de8679c1-8b29-422e-bf96-96516e97eb50",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.DUt > .INd",
+      "targets": [
+        ["css=.DUt > .INd", "css:finder"],
+        ["xpath=//div[@id='HeaderContent']/div/div/div[2]/div/div/div/div[2]/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6dfa0a2-0359-44e5-8487-8321325ec411",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.xuA:nth-child(2) > .oy8 .nrl > .DUt",
+      "targets": [
+        ["css=.xuA:nth-child(2) > .oy8 .nrl > .DUt", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div/div[2]/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/div[2]/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "149f1252-1f8a-48b5-8dc3-c7cd5463290b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.xuA:nth-child(2) > .oy8 .nrl > .DUt",
+      "targets": [
+        ["css=.xuA:nth-child(2) > .oy8 .nrl > .DUt", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div/div[2]/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/div[2]/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3ea3196-38ef-4973-9cb6-5ce2652b0d03",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.xuA:nth-child(2) .nrl .oy8",
+      "targets": [
+        ["css=.xuA:nth-child(2) .nrl .oy8", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div/div[2]/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/div[2]/div/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0a7fbf4-a36f-4541-8474-3f25149f3799",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.xuA:nth-child(2) .nrl .oy8",
+      "targets": [
+        ["css=.xuA:nth-child(2) .nrl .oy8", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div/div[2]/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/div[2]/div/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eca2fb59-190c-42c5-b0cc-c7db05c9bbfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xuA:nth-child(2) > .oy8 .nrl > .DUt",
+      "targets": [
+        ["css=.xuA:nth-child(2) > .oy8 .nrl > .DUt", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div/div[2]/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/div[2]/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80445c21-6ca1-4997-b8a6-29a546c8e519",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xuA > .B1n",
+      "targets": [
+        ["css=.xuA > .B1n", "css:finder"],
+        ["xpath=//div[@id='business-profile-header']/div/div/div[5]/div/div/div/div/button/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5bf402b-735c-441c-b181-141b92980efb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.xuA:nth-child(2) > .oy8 .nrl > .DUt",
+      "targets": [
+        ["css=.xuA:nth-child(2) > .oy8 .nrl > .DUt", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div/div[2]/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/div[2]/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ef2b457-84b9-497c-a9bb-3e90db04df14",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.xuA:nth-child(2) > .oy8 .nrl > .DUt",
+      "targets": [
+        ["css=.xuA:nth-child(2) > .oy8 .nrl > .DUt", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div/div[2]/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/div[2]/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18e004fd-61d8-4c79-92b0-2fdffcb37900",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xuA:nth-child(2) > .oy8 .nrl > .DUt",
+      "targets": [
+        ["css=.xuA:nth-child(2) > .oy8 .nrl > .DUt", "css:finder"],
+        ["xpath=//nav[@id='VerticalNavContent']/div/div/div/div[2]/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/div[2]/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "30a0cd12-43d9-4804-944f-292631aba5ac",
+    "name": "Chặn người dùng và kiểm tra xem còn theo dõi không",
+    "commands": [{
+      "id": "3e9ca00b-1f05-48e6-991c-f05e44dc96e1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1f85276-62b5-4b57-8e4e-e4c69b39a4f4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1286x787",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e37818a7-b2a2-4959-9ce4-d6fd8e4e9656",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "090a8509-40ac-4c70-aa26-e106dc901eea",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchBoxInput",
+      "targets": [
+        ["name=searchBoxInput", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='searchBoxInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBoxContainer']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "anh"
+    }, {
+      "id": "af1d1fab-53a4-4d3d-b15a-531ea930e463",
+      "comment": "",
+      "command": "click",
+      "target": "css=.C7G",
+      "targets": [
+        ["css=.C7G", "css:finder"],
+        ["xpath=//div[@id='SuggestionGroup-Option-0-9']/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93a587ea-5dfb-48aa-b336-690184237b50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jEe > .Uvi",
+      "targets": [
+        ["css=.jEe > .Uvi", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d872610-64ea-4d74-97c1-9158f630e01a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#actionBarMenuButton-item-0 .xuA > .KS5",
+      "targets": [
+        ["css=#actionBarMenuButton-item-0 .xuA > .KS5", "css:finder"],
+        ["xpath=//div[@id='actionBarMenuButton-item-0']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93808aa7-3810-4f88-9262-bf3e4c016dd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.RCK > .B1n",
+      "targets": [
+        ["css=.RCK > .B1n", "css:finder"],
+        ["xpath=//div[2]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a67e1a78-b640-4a6e-bd37-cf6803f46a83",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.RCK > .B1n",
+      "targets": [
+        ["css=.RCK > .B1n", "css:finder"],
+        ["xpath=//div[2]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c27f6ff6-462d-41d2-abc5-b0040292e34d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.RCK > .B1n",
+      "targets": [
+        ["css=.RCK > .B1n", "css:finder"],
+        ["xpath=//div[2]/div/div[3]/div/div/div/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ee9177af-0e07-465c-b6d3-fae0b8f36ec8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.pinterest.com/"],
+  "plugins": []
+}

@@ -1,0 +1,1140 @@
+{
+  "id": "939afeb4-ef9d-4e88-89cf-e275aae85341",
+  "version": "2.0",
+  "name": "pinterest dangnhap",
+  "url": "https://www.pinterest.com/",
+  "tests": [{
+    "id": "1a92fc08-1b2e-4ad5-8250-8de54f05eaf0",
+    "name": "DangnhapFB",
+    "commands": [{
+      "id": "6e076349-0afc-4cc0-abca-c14b9d801440",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d27874d-1802-4407-9ce1-62cff0509c2e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a20b38f3-58d8-48c4-b762-2178cfc7305d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NTm > .Il7",
+      "targets": [
+        ["css=.NTm > .Il7", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59d06890-5a6e-444a-8e2a-b8a611dd0aec",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.NTm > .Il7",
+      "targets": [
+        ["css=.NTm > .Il7", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56e9e48e-618b-451a-95bb-715952e16a0f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.NTm > .Il7",
+      "targets": [
+        ["css=.NTm > .Il7", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7cc0998-f871-432a-b556-2fcb7bc82589",
+      "comment": "",
+      "command": "click",
+      "target": "css=.C7G > .qX7",
+      "targets": [
+        ["css=.C7G > .qX7", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/div/div/div/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7216",
+      "windowTimeout": 2000
+    }, {
+      "id": "1770682d-89db-4149-9823-b7a10663ae04",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7216}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8b98b4e-b2ce-4535-9fc1-33d94005116d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "863709bf-94fa-452a-807f-900871b7eca7",
+    "name": "Đăng nhập thành công với tài khoản hợp lệ",
+    "commands": [{
+      "id": "1cb99f39-97c0-4b64-979a-41b25b6b762c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7b472d1-d6f6-426d-88f1-3ce2b581eb1c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0420231e-e047-49c5-aae6-997131aa9f5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NTm > .B1n",
+      "targets": [
+        ["css=.NTm > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ae7fe5e-e7a3-4fea-8055-3add5cad3f33",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=3",
+      "targets": [
+        ["index=3"]
+      ],
+      "value": ""
+    }, {
+      "id": "57814d98-a977-4915-bf00-3e5585dc2027",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fmcmS",
+      "targets": [
+        ["css=.fmcmS", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2615",
+      "windowTimeout": 2000
+    }, {
+      "id": "a8c1d455-065f-4545-90ff-a6acab19d55e",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad0dd208-48c4-4ad4-a448-9d2b7d4f403d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2615}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0b105ae-034f-4f21-87dc-d9648f6ca5c7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3c351a0-bc6b-45d9-a452-28e6727a461c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fff45dd7-563d-403f-96c5-4ef7492f27ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jEe > .Uvi",
+      "targets": [
+        ["css=.jEe > .Uvi", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a1a61abb-42fc-4f0f-afc1-88cb568b1abe",
+    "name": "Đăng nhập thất bại khi bỏ trống mật khẩu",
+    "commands": [{
+      "id": "1d0ad6af-6ff4-4384-a6e8-81056733b392",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eeeeeee5-c320-4872-b1ef-819ec9a916ef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f84d0be-af5a-4be8-b4ec-5a33a2eba5f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NTm > .B1n",
+      "targets": [
+        ["css=.NTm > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4feeae2e-96cf-4627-85b9-3a52bee85c8f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=id", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[2]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc76d6e8-fa3c-4865-ba3a-ef766318549c",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=id", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[2]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "abce@gmail.com"
+    }, {
+      "id": "cccee0ab-5bc6-409d-99de-4f25863a623c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gn8 > .B1n",
+      "targets": [
+        ["css=.gn8 > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[7]/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "544be361-0684-41eb-ac50-287ded33c90c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gn8 > .B1n",
+      "targets": [
+        ["css=.gn8 > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[7]/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16283302-c804-4a68-b4c6-9bca0256575b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gn8 > .B1n",
+      "targets": [
+        ["css=.gn8 > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div[2]/div[4]/div/form/div[7]/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9def5856-006e-45c2-adf8-f37a3073a9c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gn8 > .a_A",
+      "targets": [
+        ["css=.gn8 > .a_A", "css:finder"],
+        ["xpath=//div[3]/div[3]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6b360bfa-a559-4c23-9aca-5c22d1d0239d",
+    "name": "Đăng nhập thất bại khi bỏ trống email/số điện thoại",
+    "commands": [{
+      "id": "a8c544ca-6e63-4295-85a2-033306a4c069",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e251df06-d2ac-48d1-ab42-6d32e32e15b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdc2855e-619d-4a7b-a3ac-50594fc05f88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NTm > .B1n",
+      "targets": [
+        ["css=.NTm > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1009452-2d99-465e-877e-2a6353c9563b",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[4]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8b2cc08-9b81-4011-887e-ef3c45b3823e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[4]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/div/input", "xpath:position"]
+      ],
+      "value": "XNFCs_.3zgsLm9k"
+    }, {
+      "id": "9ec3b9c9-87c3-40ff-9756-d700a0bf24a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gn8 > .B1n",
+      "targets": [
+        ["css=.gn8 > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[7]/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4a92c704-fe82-45b5-a170-04a54f701ad9",
+    "name": "Đăng nhập thất bại với mật khẩu sai",
+    "commands": [{
+      "id": "1dbb877e-e6dd-4900-9c76-7511361f2a05",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fab183e-bada-4a70-9a7b-27b964a038f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ae698bf-0cce-4a24-abd6-4c7b5e13b820",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NTm > .B1n",
+      "targets": [
+        ["css=.NTm > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb4b4e91-3a4e-46b1-8b13-0f2eb2ad27b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=id", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[2]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b81fcba-bdfe-433d-b1ba-339783dbf701",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=id", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[2]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "abcd@gmail.com"
+    }, {
+      "id": "5b18e18b-2db8-4bd7-bcf1-9861f8a9990b",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[4]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36eabd7e-87b4-4b2f-ba4c-c816f74867f5",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[4]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "7de73cfb-1e83-44b5-bbfe-552a8e4ee4c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.QLY > div > div > .zI7 > .zI7 > .zI7:nth-child(5)",
+      "targets": [
+        ["css=.QLY > div > div > .zI7 > .zI7 > .zI7:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c80a7f6c-580b-4634-9c61-5e5e64bdf8a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gn8 > .RCK",
+      "targets": [
+        ["css=.gn8 > .RCK", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[7]/button/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0205b73c-55fd-443a-ba26-0a001900ad2c",
+    "name": "Đăng nhập thất bại với email không tồn tại",
+    "commands": [{
+      "id": "916f4812-f30b-4b93-99ea-2e56629a4506",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "347c4c90-925c-43cd-8ff1-871d41a4b4d8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d3aad17-675a-4c84-a230-22d466a338d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NTm > .B1n",
+      "targets": [
+        ["css=.NTm > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cd596f0-4674-47c5-8800-9d70e48159ef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.NTm > .B1n",
+      "targets": [
+        ["css=.NTm > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7874c31e-ead8-4527-9287-8cfc11201215",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.NTm > .B1n",
+      "targets": [
+        ["css=.NTm > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb3b122b-58b1-47e1-9786-6b31c2fa0053",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=id", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[2]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e3fddd0-3010-4126-8b0a-5e6aed70a0c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=id", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[2]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123kjsjsjsj@gmail.com"
+    }, {
+      "id": "5240ec0c-9219-4781-8e6f-b1f7b787e506",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[4]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eeb005fa-2163-423c-aa05-7cceff90db7c",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[4]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/div/input", "xpath:position"]
+      ],
+      "value": "XNFCs_.3zgsLm9k"
+    }, {
+      "id": "c18a2d6d-6f49-425d-8f2d-6d85216cf3d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gn8 > .B1n",
+      "targets": [
+        ["css=.gn8 > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[7]/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "80d323a4-65e1-437a-a80c-01b5f587c094",
+    "name": "Quên mật khẩu - Yêu cầu gửi email thành công",
+    "commands": [{
+      "id": "13a30dde-f8b3-4377-bfc0-ab316a98dc24",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32ceab7a-30fc-439d-babd-c2bcd85b8e6a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4219101c-2bf8-4517-ae03-d697e6e17709",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NTm > .B1n",
+      "targets": [
+        ["css=.NTm > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3cacd50-58d9-4d48-8b83-0db096c5b005",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quên mật khẩu?",
+      "targets": [
+        ["linkText=Quên mật khẩu?", "linkText"],
+        ["css=.j1A > .nrl", "css:finder"],
+        ["xpath=//a[contains(text(),'Quên mật khẩu?')]", "xpath:link"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[5]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/password/reset/')]", "xpath:href"],
+        ["xpath=//form/div[5]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quên mật khẩu?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5027af30-60aa-4bad-ab3e-3f787f8b1c3f",
+      "comment": "",
+      "command": "click",
+      "target": "id=userQuery",
+      "targets": [
+        ["id=userQuery", "id"],
+        ["css=#userQuery", "css:finder"],
+        ["xpath=//input[@id='userQuery']", "xpath:attributes"],
+        ["xpath=//div[@id='password-reset-container']/div/div/form/div/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//span/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9419bc11-2c6a-469c-85cd-f3c88f279a06",
+      "comment": "",
+      "command": "type",
+      "target": "id=userQuery",
+      "targets": [
+        ["id=userQuery", "id"],
+        ["css=#userQuery", "css:finder"],
+        ["xpath=//input[@id='userQuery']", "xpath:attributes"],
+        ["xpath=//div[@id='password-reset-container']/div/div/form/div/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//span/div/input", "xpath:position"]
+      ],
+      "value": "trinhngocquyen0403@gmail.com"
+    }, {
+      "id": "da8fb4a2-95ec-4844-9052-0d4061748673",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Vxj",
+      "targets": [
+        ["css=.Vxj", "css:finder"],
+        ["xpath=//div[@id='password-reset-container']/div/div/form/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae13bb37-6f7e-4d50-9916-0640fa33ec9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gn8 > .Il7",
+      "targets": [
+        ["css=.gn8 > .Il7", "css:finder"],
+        ["xpath=//div[@id='password-reset-container']/div/div[3]/div/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04b39b4c-362e-4b92-9aa9-669d8a644b2b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1d18aeeb-26c7-4acb-b88b-81c156330946",
+    "name": "Quên mật khẩu - Yêu cầu gửi email thất bại (email không tồn tại)",
+    "commands": [{
+      "id": "59c2549c-fbe1-4214-901f-91a235e03637",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1792094e-147d-4ac9-9fdb-c0010115c0b4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13e444f5-d769-4ca9-a75b-5b57bda3cd92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NTm > .B1n",
+      "targets": [
+        ["css=.NTm > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bfc18de-de5a-4272-b53b-073182521e7a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quên mật khẩu?",
+      "targets": [
+        ["linkText=Quên mật khẩu?", "linkText"],
+        ["css=.j1A > .nrl", "css:finder"],
+        ["xpath=//a[contains(text(),'Quên mật khẩu?')]", "xpath:link"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[5]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/password/reset/')]", "xpath:href"],
+        ["xpath=//form/div[5]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quên mật khẩu?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd390446-4fc8-4f7f-a940-1ee9eee1f986",
+      "comment": "",
+      "command": "type",
+      "target": "id=userQuery",
+      "targets": [
+        ["id=userQuery", "id"],
+        ["css=#userQuery", "css:finder"],
+        ["xpath=//input[@id='userQuery']", "xpath:attributes"],
+        ["xpath=//div[@id='password-reset-container']/div/div/form/div/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//span/div/input", "xpath:position"]
+      ],
+      "value": "cu361st03"
+    }, {
+      "id": "e58b45fb-6258-4c57-8e21-f1307522ab2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gn8 > .B1n",
+      "targets": [
+        ["css=.gn8 > .B1n", "css:finder"],
+        ["xpath=//div[@id='password-reset-container']/div/div/form/div/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0716b6c1-b05c-4221-97cd-535f78f57b65",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gn8 > .B1n",
+      "targets": [
+        ["css=.gn8 > .B1n", "css:finder"],
+        ["xpath=//div[@id='password-reset-container']/div/div/form/div/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52c8ea81-3418-4987-9898-8e2db81eb82e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gn8 > .B1n",
+      "targets": [
+        ["css=.gn8 > .B1n", "css:finder"],
+        ["xpath=//div[@id='password-reset-container']/div/div/form/div/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fb01e08-e8de-434c-8de4-402a0f1939f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gn8 > .B1n",
+      "targets": [
+        ["css=.gn8 > .B1n", "css:finder"],
+        ["xpath=//div[@id='password-reset-container']/div/div/form/div/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "07bdafa5-d772-4de1-a6f7-3384b9dc4864",
+    "name": "Đăng nhập khi bật Caps Lock",
+    "commands": [{
+      "id": "21d4c4ce-9736-4ea4-8d2b-56d39cc98265",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "435a53a5-19e1-48c0-b3c1-edabfa873d61",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50a3e78f-9a3f-4976-8892-dfcb731a8e02",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.B1n",
+      "targets": [
+        ["css=.B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4d48024-1c50-4df8-b301-8320d110ef0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NTm > .B1n",
+      "targets": [
+        ["css=.NTm > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d6f9dbc-ef6b-4efc-acdc-3dc98cff9ad1",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=id", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[2]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3c8cbd2-9481-41bc-a47a-13a9102d95b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=id", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[2]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "TRINHNGOCQUYEN0403@GMAIL.COM"
+    }, {
+      "id": "d239e297-ab37-411c-8756-041679c2d803",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[4]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "875bbcd3-276a-4087-bab6-2f89ae02e296",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[4]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/div/input", "xpath:position"]
+      ],
+      "value": "XNFCs_.3zgsLm9k"
+    }, {
+      "id": "df5b421e-7738-4ffe-8d63-d5cd549c3b54",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.yui",
+      "targets": [
+        ["css=.yui", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[7]/button/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c570ca76-6603-49ed-ae3e-b0f29ea8a7aa",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.gn8 > .B1n",
+      "targets": [
+        ["css=.gn8 > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[7]/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "550eea89-11ed-447e-ba13-de60c8068d6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gn8 > .RCK",
+      "targets": [
+        ["css=.gn8 > .RCK", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[7]/button/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ea298e9-55ef-4017-a6a1-41413bfd87ec",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gn8 > .B1n",
+      "targets": [
+        ["css=.gn8 > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[7]/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12e210dd-091b-47e6-9e1d-b5d9c9b172b1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gn8 > .B1n",
+      "targets": [
+        ["css=.gn8 > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div[2]/div[4]/div/form/div[7]/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ddba81b7-d702-4067-8059-c826fddef059",
+    "name": "Kiểm tra hiển thị và chức năng nút \"Hiển thị mật khẩu\"",
+    "commands": [{
+      "id": "2a910e07-7334-488d-baf1-a5341f373fa9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3c06d67-7086-4af6-a442-3a851370ff5d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d2711b1-44ab-4686-b82b-03b074be017e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Il7",
+      "targets": [
+        ["css=.Il7", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3a15efa-c7a8-4e13-b491-5314eadf69cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NTm > .B1n",
+      "targets": [
+        ["css=.NTm > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9a3550b-f94d-467b-8a2d-cc6b6c7e5153",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[4]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d26e6582-3f23-408f-bc59-1fb912e28d7e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div/form/div[4]/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/div/input", "xpath:position"]
+      ],
+      "value": "XNFCs_.3zgsLm9k"
+    }, {
+      "id": "344ecd14-7f30-4a1f-9934-4b202442a277",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Wqj path",
+      "targets": [
+        ["css=.Wqj path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "76ab0d11-d784-4391-a89e-6aa5a49b2e01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jEe path",
+      "targets": [
+        ["css=.jEe path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e821a668-0ec8-444f-b211-ec824da3a263",
+    "name": "Kiểm tra các liên kết (ví dụ: điều khoản dịch vụ, chính sách bảo mật) trên trang đăng nhập",
+    "commands": [{
+      "id": "a616109c-ad52-490d-b137-73f3dcdd50b2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pinterest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1a72dc1-11e4-4728-aa91-f89af41df549",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a9f0cd9-0f6b-414d-8f88-f7963813a050",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NTm > .B1n",
+      "targets": [
+        ["css=.NTm > .B1n", "css:finder"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div/div/div/div[2]/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1df5f98c-907a-4da8-a4bb-619d11cb3cec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Điều khoản dịch vụ của Pinterest",
+      "targets": [
+        ["linkText=Điều khoản dịch vụ của Pinterest", "linkText"],
+        ["css=.goI:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Điều khoản dịch vụ của Pinterest')]", "xpath:link"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/_/_/policy/terms-of-service/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Điều khoản dịch vụ của Pinterest')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7151",
+      "windowTimeout": 2000
+    }, {
+      "id": "d7869682-e14b-40ea-b607-e0e6e5d05518",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c5eecdd-9baf-4712-977d-87bc8b16b4f4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7151}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "150eec5c-0a5a-41cf-ba84-87b2d22cfc8b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d8e8dac-c4ec-43f1-b272-1c558e45b23e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chính sách quyền riêng tư",
+      "targets": [
+        ["linkText=Chính sách quyền riêng tư", "linkText"],
+        ["css=.nrl:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Chính sách quyền riêng tư')]", "xpath:link"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div[2]/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/_/_/policy/privacy-policy/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Chính sách quyền riêng tư')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4006",
+      "windowTimeout": 2000
+    }, {
+      "id": "67041318-0fd6-470b-8d44-74111bb15cb4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4006}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74b21e11-b2bd-4c95-83df-9e4a2b7d9941",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05a6fd35-7748-4e0a-9239-a75a38a2a143",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thông báo khi thu thập",
+      "targets": [
+        ["linkText=Thông báo khi thu thập", "linkText"],
+        ["css=.nrl:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Thông báo khi thu thập')]", "xpath:link"],
+        ["xpath=//div[@id='__PWS_ROOT__']/div/div/div/div[3]/div/div/div/div/div/div[4]/div[2]/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://policy.pinterest.com/notice-at-collection')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Thông báo khi thu thập')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6226",
+      "windowTimeout": 2000
+    }, {
+      "id": "153b3cfb-3879-428f-9b04-1cf0744e197a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6226}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "43caa064-747a-40b7-be01-4018090ef146",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1a92fc08-1b2e-4ad5-8250-8de54f05eaf0"]
+  }],
+  "urls": ["https://www.pinterest.com/"],
+  "plugins": []
+}
