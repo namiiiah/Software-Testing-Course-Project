@@ -4,7 +4,7 @@
 This project tests the **Pinterest website** ([https://www.pinterest.com/](https://www.pinterest.com/)) using **Selenium IDE** as a school assignment. It validates core features like **login**, **registration**, **search**, **saving pins**, **board creation**, **following accounts**, **logout**, and **profile editing**. Test scripts are stored in the **`SeleniumIDE-tests`** folder as **`.side`** files, aligned with **`TestCase.xlsx`**.
 
 ## **Prerequisites**
-- **Selenium IDE**: Chrome/Firefox extension ([https://www.selenium.dev/selenium-ide/](https://www.selenium.dev/selenium-ide/)).
+- **Selenium IDE**: Microsoft Edge extension ([https://www.selenium.dev/selenium-ide/](https://www.selenium.dev/selenium-ide/)).
 - **Browser**: Latest **Microsoft Edge**.
 - **Pinterest Account**: For authenticated tests.
 - **Excel**: To view **`TestCase.xlsx`**.
