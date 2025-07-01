@@ -63,4 +63,3 @@ This project tests the **Pinterest website** ([https://www.pinterest.com/](https
 
 ## **Contact**
 - **Email**: tamnhint0905@gmail.com
-- **Date Created**: **01/07/2025**
